@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 1, 0.7), rgba(0, 0, 1, 0.7)),
     url("images/stadium.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,6 +77,11 @@ header a {
 
   header h3 {
     font-size: 12px;
+  }
+  header a {
+    font-size: 8px;
+    padding: 10px 15px;
+    margin-top: 25px;
   }
 }
 footer {
