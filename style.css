@@ -141,6 +141,10 @@ footer a {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.goals {
+  font-family: "Zilla Slab Highlight", cursive;
+  color: #8f0301;
+}
 
 section {
   max-width: 1200px;
