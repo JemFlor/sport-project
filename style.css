@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/lisbon.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/stadium.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -23,15 +23,16 @@ header h1 {
   line-height: 1;
   font-family: "Braah One", sans-serif;
   color: red;
+  margin-top: 15px;
 }
 
 header h2 {
   font-weight: 400;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Germania One", cursive;
   line-height: 1;
   margin: 0;
-  margin-top: -35px;
+  margin-top: -45px;
 }
 
 header h3 {
@@ -78,4 +79,5 @@ header a {
 }
 footer {
   text-align: center;
+  color: red;
 }
