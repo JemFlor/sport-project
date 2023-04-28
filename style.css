@@ -28,11 +28,12 @@ header h1 {
 
 header h2 {
   font-weight: 400;
-  font-size: 50px;
+  font-size: 55px;
   font-family: "Germania One", cursive;
   line-height: 1;
   margin: 0;
   margin-top: -45px;
+  color: white;
 }
 
 header h3 {
@@ -60,6 +61,10 @@ header a {
   margin-top: 50px;
   border-radius: 10px;
   font-family: sans-serif;
+}
+header a:hover {
+  color: white;
+  background: black;
 }
 
 @media (max-width: 900px) {
