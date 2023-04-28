@@ -23,7 +23,7 @@ header h1 {
   line-height: 1;
   font-family: "Braah One", sans-serif;
   color: red;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 header h2 {
@@ -49,15 +49,17 @@ header a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #272044;
+  color: white;
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: white;
+  background: darkred;
   margin-top: 50px;
+  border-radius: 20px;
+  font-family: sans-serif;
 }
 
 @media (max-width: 900px) {
