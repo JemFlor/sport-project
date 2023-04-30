@@ -217,6 +217,7 @@ main p {
 .card {
   background: darkred;
   margin: 30px 0;
+  margin-top: 10px;
 }
 
 .card-body {
@@ -252,4 +253,8 @@ section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+}
+
+.secondary {
+  margin-top: -100px;
 }
