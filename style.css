@@ -273,3 +273,9 @@ section {
     display: none;
   }
 }
+h6 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Germania One", cursive;
+}
