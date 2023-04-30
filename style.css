@@ -259,25 +259,17 @@ section {
 .video {
   margin: 0 auto;
   width: 100%;
-  background: #030f27;
-}
-.video-grid-1 {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: -10px;
-}
-
-.video-grid-2 {
-  display: grid;
-  width: 100%;
-  margin-top: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 8px;
+  background-image: linear-gradient(rgba(0, 0, 1, 0.7), rgba(0, 0, 1, 0.7)),
+    url("images/team.jpeg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -100px;
+  padding: 180px 0;
 }
 
 @media (max-width: 900px) {
-  .video-grid-1 {
-    grid-template-columns: 1fr;
+  .video {
+    display: none;
   }
 }
