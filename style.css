@@ -242,6 +242,11 @@ main p {
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  border-radius: 15px;
+}
+.btn:hover {
+  color: #030f27;
+  background: #e09f12;
 }
 section {
   max-width: 100%;
