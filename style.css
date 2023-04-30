@@ -121,8 +121,7 @@ footer li {
   margin: 0;
   padding: 0;
   font-size: 25px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   margin-top: 5px;
   text-align: center;
   color: white;
@@ -200,8 +199,7 @@ main p {
   line-height: 1.5;
   color: #e09f12;
   opacity: 0.7;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 .img-responsive {
   max-width: 100%;
@@ -217,12 +215,13 @@ main p {
 }
 
 .card {
-  background: white;
+  background: darkred;
   margin: 30px 0;
 }
 
 .card-body {
   padding: 30px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .card-footer {
@@ -239,8 +238,10 @@ main p {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #030f27;
   text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 section {
   max-width: 100%;
