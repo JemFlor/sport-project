@@ -70,7 +70,8 @@ header a:hover {
 
 @media (max-width: 900px) {
   header {
-    padding: 60px 0;
+    padding: 200px 0;
+    margin-top: -150px;
   }
 
   header h1 {
@@ -105,7 +106,7 @@ footer h3 {
   font-size: 40px;
   font-family: "Germania One", cursive;
   line-height: 30px;
-  margin-top: -70px;
+  margin-top: -40px;
   color: darkred;
 
   display: flex;
@@ -155,7 +156,6 @@ section {
 @media (max-width: 900px) {
   footer h3 {
     font-size: 20px;
-    margin-top: -35px;
   }
   footer li {
     font-size: 13px;
@@ -256,6 +256,28 @@ section {
   padding: 100px;
 }
 
-.secondary {
-  margin-top: -100px;
+.video {
+  margin: 0 auto;
+  width: 100%;
+  background: #030f27;
+}
+.video-grid-1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: -10px;
+}
+
+.video-grid-2 {
+  display: grid;
+  width: 100%;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .video-grid-1 {
+    grid-template-columns: 1fr;
+  }
 }
