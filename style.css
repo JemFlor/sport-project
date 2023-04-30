@@ -22,7 +22,7 @@ header h1 {
   font-size: 96px;
   line-height: 1;
   font-family: "Braah One", sans-serif;
-  color: red;
+  color: #e09f12;
   margin-top: 20px;
 }
 
@@ -33,7 +33,7 @@ header h2 {
   line-height: 1;
   margin: 0;
   margin-top: -45px;
-  color: white;
+  color: red;
 }
 
 header h3 {
@@ -57,7 +57,7 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: darkred;
+  background: #030f27;
   margin-top: 50px;
   border-radius: 10px;
   font-family: sans-serif;
@@ -107,7 +107,7 @@ footer h3 {
   font-family: "Zilla Slab Highlight", cursive;
   line-height: 30px;
   margin-top: -70px;
-  color: #8f0301;
+  color: #e09f12;
 
   display: flex;
   justify-content: space-evenly;
@@ -122,7 +122,8 @@ footer li {
   margin: 0;
   padding: 0;
   font-size: 25px;
-  font-family: "Braah One", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-top: 5px;
   text-align: center;
   color: white;
@@ -162,4 +163,43 @@ section {
   footer {
     padding: 70px 0;
   }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+}
+main {
+  background-color: #030f27;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #e09f12;
+
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #e09f12;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e09f12;
+  opacity: 0.7;
+}
+.img-responsive {
+  max-width: 100%;
 }
