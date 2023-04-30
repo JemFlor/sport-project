@@ -207,7 +207,8 @@ main p {
 }
 @media (max-width: 900px) {
   main p {
-    font-size: 13px;
+    font-size: 16px;
+    max-width: 400px;
   }
 }
 
