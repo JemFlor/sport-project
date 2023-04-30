@@ -226,7 +226,7 @@ section {
 
 @media (max-width: 900px) {
   iframe {
-    width: 400px;
+    max-width: 400px;
     height: 300px;
   }
 }
