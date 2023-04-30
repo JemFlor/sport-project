@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -66,30 +66,6 @@ header a:hover {
   color: white;
   background: #030f27;
   cursor: pointer;
-}
-
-@media (max-width: 900px) {
-  header {
-    padding: 200px 0;
-    margin-top: -150px;
-  }
-
-  header h1 {
-    font-size: 50px;
-  }
-
-  header h2 {
-    font-size: 24px;
-  }
-
-  header h3 {
-    font-size: 15px;
-  }
-  header a {
-    font-size: 10px;
-    padding: 10px 15px;
-    margin-top: 25px;
-  }
 }
 
 footer {
@@ -156,22 +132,7 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
-@media (max-width: 900px) {
-  footer h3 {
-    font-size: 20px;
-  }
-  footer li {
-    font-size: 13px;
-  }
-  footer {
-    padding: 70px 0;
-  }
 
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 32px;
-  }
-}
 main {
   background-color: #030f27;
 }
@@ -207,11 +168,6 @@ main p {
 }
 .img-responsive {
   max-width: 100%;
-}
-@media (max-width: 900px) {
-  main p {
-    font-size: 15px;
-  }
 }
 
 .grid-3-columns-with-first-narrow {
@@ -275,21 +231,40 @@ section {
   .video {
     display: none;
   }
-  .card-body {
-    padding: 40px;
-    text-align: center;
-  }
-  .card {
-    padding: 20px;
-    text-align: center;
-  }
-  .secondary {
-    text-align: center;
-  }
 }
 h6 {
   color: white;
   text-align: center;
   font-size: 15px;
   font-family: "Germania One", cursive;
+}
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
 }
