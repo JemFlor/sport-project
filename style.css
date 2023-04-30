@@ -274,9 +274,11 @@ section {
   }
   .card-body {
     padding: 40px;
+    text-align: center;
   }
   .card {
     padding: 20px;
+    text-align: center;
   }
 }
 h6 {
