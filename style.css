@@ -103,11 +103,11 @@ footer {
 footer h3 {
   font-weight: 700;
   font-size: 40px;
-  font-family: monospace;
+  font-family: "Germania One", cursive;
   line-height: 30px;
   margin-top: -70px;
   color: darkred;
-  text-decoration: underline;
+
   display: flex;
   justify-content: space-evenly;
 }
