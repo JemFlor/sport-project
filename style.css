@@ -140,6 +140,7 @@ footer a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
 }
 .goals {
   font-family: "Zilla Slab Highlight", cursive;
