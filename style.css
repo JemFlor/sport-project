@@ -93,8 +93,7 @@ header a:hover {
 
 footer {
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("images/team.jpg");
+  background: #030f27;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,7 +106,7 @@ footer h3 {
   font-family: "Zilla Slab Highlight", cursive;
   line-height: 30px;
   margin-top: -70px;
-  color: #e09f12;
+  color: darkred;
 
   display: flex;
   justify-content: space-evenly;
@@ -144,8 +143,9 @@ footer a {
   grid-gap: 25px;
 }
 .goals {
-  font-family: "Zilla Slab Highlight", cursive;
-  color: gray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #e09f12;
 }
 
 section {
