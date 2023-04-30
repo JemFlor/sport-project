@@ -283,6 +283,9 @@ section {
     padding: 20px;
     text-align: center;
   }
+  .secondary {
+    text-align: center;
+  }
 }
 h6 {
   color: white;
