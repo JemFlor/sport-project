@@ -57,14 +57,14 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: #030f27;
+  background: darkred;
   margin-top: 50px;
   border-radius: 10px;
   font-family: sans-serif;
 }
 header a:hover {
   color: white;
-  background: black;
+  background: #030f27;
   cursor: pointer;
 }
 
@@ -155,7 +155,7 @@ section {
 @media (max-width: 900px) {
   footer h3 {
     font-size: 19px;
-    margin-top: -50px;
+    margin-top: -35px;
   }
   footer li {
     font-size: 12px;
@@ -180,7 +180,7 @@ main h2 {
   margin: 0;
   letter-spacing: 5px;
   color: #e09f12;
-
+  font-family: "Germania One", cursive;
   text-transform: uppercase;
 }
 
@@ -190,15 +190,18 @@ main h3 {
   line-height: 1.5;
   color: #e09f12;
   margin: 0;
+  font-family: "Germania One", cursive;
 }
 
 main p {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5;
   color: #e09f12;
   opacity: 0.7;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .img-responsive {
   max-width: 100%;
