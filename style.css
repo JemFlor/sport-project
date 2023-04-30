@@ -154,11 +154,11 @@ section {
 }
 @media (max-width: 900px) {
   footer h3 {
-    font-size: 19px;
+    font-size: 20px;
     margin-top: -35px;
   }
   footer li {
-    font-size: 12px;
+    font-size: 13px;
   }
   footer {
     padding: 70px 0;
@@ -205,4 +205,9 @@ main p {
 }
 .img-responsive {
   max-width: 100%;
+}
+@media (max-width: 900px) {
+  main p {
+    font-size: 13px;
+  }
 }
